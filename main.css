@@ -1,0 +1,9 @@
+img {
+	border-radius: 8px;
+	padding:  5%;
+}
+
+.imageContainer > img:click {
+	-webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
