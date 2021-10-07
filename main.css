@@ -3,6 +3,9 @@ img {
 	padding:  5%;
 }
 
+img:hover{
+    cursor: grabbing;
+}
 .imageContainer > img:click {
 	-webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
@@ -10,8 +13,6 @@ img {
 
 body {
 	background-color:  #f5f5f5;
-
-
 }
 
 body .canvas {
@@ -23,27 +24,44 @@ body .canvas {
 	background-color:  white;
 	}
 
-.mainImage{
-	margin-left:  6%; 
-	margin-right:  6%; 
-	font-size: large;
-}
-
-header {
-	padding-top: 5%;
-	padding-bottom:  3%;
-}
 
 a {
 	text-decoration:none;
 }
 
+hr{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#mainPageHeader {
+    padding-top: 5%;
+    padding-bottom:  3%;
+}
+
+#mainPageHeader h1 a span {
+    font-family:  garamond;
+    font-size: 70px;
+}
+
+#mainPageImage {
+    margin-bottom: -7px;
+    width:100%;
+}
+
+#mainPageContent{
+    margin-left:  6%; 
+    margin-right:  6%; 
+    font-size: large;
+}
 
 /*NAVIGATION*/
 
 
 #mainNav{
-	width: 70%;
+    font-family:  garamond;
+    padding-top: 1.5em;
+	width: 80%;
     margin-left:  auto;
     margin-right:  auto;
     text-transform:uppercase;
@@ -52,15 +70,16 @@ a {
 
 #mainNav li{
     list-style:none;
-    float:left
+    float:left;
 }
 
 #mainNav li a{
-    padding:35px
+    padding:35px;
 }
 
 #mainNav li a:hover{
-    color:grey
+    color:grey;
+    text-decoration:  underline;
 }
 
 @media only screen and (max-width: 1140px) {
