@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'garamond';
-    src: url('GARA.ttf') format("truetype");;
-}
+
 
 img {
 	border-radius: 8px;
@@ -36,8 +33,10 @@ a {
 }
 
 hr{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+        color: #eeeeee !important;
+     border: 1px solid;
 }
 
 #mainPageHeader {
@@ -66,6 +65,10 @@ hr{
     font-size: large;
 }
 
+#mainPageCopy{
+    margin-left:  10%;
+    margin-right:  10%;
+}
 #mainNav{
     font-family:  garamond;
     padding-top: 1.5em;
@@ -90,17 +93,24 @@ hr{
     text-decoration:  underline;
 }
 
+button {
+    background:  white!important;
+    font-size:  20px!important;
+}
+
 #mobileNav ul li {
     padding: 10px;
-    font-family:  garamond;
 }
 
 @media only screen and (max-width: 1140px) {
+
     #mainNav {
         display: none;
     }
     #mainPageHeader span{
         font-size: 35px!important;
+        font-family:  Garamond, serif;
+
     }
     #mainPageHeader h3{
         font-size: 18px!important;
@@ -138,7 +148,6 @@ hr{
 }
 
 .collapsible {
-  background-color: lightgrey;
   color: black;
   cursor: pointer;
   padding: 18px;
@@ -150,7 +159,6 @@ hr{
 }
 
 .active, .collapsible:hover {
-  background-color: darkgrey;
 }
 
 #mobileNav {
