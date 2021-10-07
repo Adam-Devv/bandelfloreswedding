@@ -44,7 +44,12 @@ hr{
     font-size: 70px;
 }
 
-#mainPageImage {
+#mainPageImage1 {
+    margin-bottom: -7px;
+    width:100%;
+}
+
+#mainPageImage2 {
     margin-bottom: -7px;
     width:100%;
 }
@@ -86,6 +91,23 @@ hr{
     #mainNav {
         display: none;
     }
+    #mainPageHeader span{
+        font-size: 30px!important;
+    }
+    #mainPageHeader h3{
+        font-size: 20px!important;
+    }
+    #mainPageHeader h4{
+        font-size: 15px!important;
+    }
+    
+    #mainPageImage1 {
+        display:  none;
+    }
+    #mainPageImage2 {
+        display:  block;
+    }
+    
     body .canvas{
     	width: 100%;
     	margin-top:  0;
@@ -98,6 +120,12 @@ hr{
     }
     .collapsible {
     	display: none;
+    }
+    #mainPageImage1 {
+        display:  block;
+    }
+    #mainPageImage2 {
+        display:  none;
     }
 }
 
