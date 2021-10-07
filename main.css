@@ -16,6 +16,7 @@ body {
 }
 
 body .canvas {
+    font-family:  garamond;
 	margin: auto;
 	margin-top:  8%;
 	margin-bottom:  8%;
@@ -60,9 +61,6 @@ hr{
     font-size: large;
 }
 
-/*NAVIGATION*/
-
-
 #mainNav{
     font-family:  garamond;
     padding-top: 1.5em;
@@ -78,7 +76,7 @@ hr{
     float:left;
 }
 
-#mainNav li a{
+#mainNav ul li a{
     padding:35px;
 }
 
@@ -87,15 +85,20 @@ hr{
     text-decoration:  underline;
 }
 
+#mobileNav ul li {
+    padding: 10px;
+    font-family:  garamond;
+}
+
 @media only screen and (max-width: 1140px) {
     #mainNav {
         display: none;
     }
     #mainPageHeader span{
-        font-size: 30px!important;
+        font-size: 35px!important;
     }
     #mainPageHeader h3{
-        font-size: 20px!important;
+        font-size: 18px!important;
     }
     #mainPageHeader h4{
         font-size: 15px!important;
