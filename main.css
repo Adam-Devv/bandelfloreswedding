@@ -18,7 +18,7 @@ body {
 }
 
 body .canvas {
-    font-family:  garamond!important;
+    font-family:  garamond;
 	margin: auto;
 	margin-top:  8%;
 	margin-bottom:  8%;
@@ -45,7 +45,7 @@ hr{
 }
 
 #mainPageHeader h1 a span {
-    font-family:  garamond!important;
+    font-family:  garamond;
     font-size: 70px;
 }
 
@@ -70,7 +70,7 @@ hr{
     margin-right:  10%;
 }
 #mainNav{
-    font-family:  garamond!important;
+    font-family:  garamond;
     padding-top: 1.5em;
 	width: 80%;
     margin-left:  auto;
@@ -103,14 +103,14 @@ button {
 }
 
 #mainPageContent{
-    font-family:  font-family:  Georgia!important;
+    font-family:  font-family:  Georgia;
 }
 
 @media only screen and (max-width: 1140px) {
 
     #mainNav {
         display: none;
-        font-family:  Georgia!important;
+        font-family:  Georgia;
     }
 
     #mainPageHeader span{
@@ -137,6 +137,7 @@ button {
     body .canvas{
     	width: 100%;
     	margin-top:  0;
+        font-family:  Georgia!important;
     }
 }
 
