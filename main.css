@@ -33,10 +33,15 @@ a {
 }
 
 hr{
+    margin:  0px;
     margin-top: 2em;
     margin-bottom: 2em;
-        color: #eeeeee !important;
-     border: 1px solid;
+    color: #eeeeee !important;
+    border: 1px solid;
+}
+
+#navMenuHr {
+    margin:  0px!important;
 }
 
 #mainPageHeader {
@@ -96,6 +101,8 @@ hr{
 button {
     background:  white!important;
     font-size:  20px!important;
+    border-bottom: 2px solid!important;
+    border-color:  #eeeeee !important;;
 }
 
 #mobileNav ul li {
