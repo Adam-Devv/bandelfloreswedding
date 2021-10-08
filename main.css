@@ -45,7 +45,7 @@ hr{
 }
 
 #mainPageHeader h1 a span {
-    font-family:  garamond;
+    font-family:  garamond!important;
     font-size: 70px;
 }
 
@@ -70,7 +70,7 @@ hr{
     margin-right:  10%;
 }
 #mainNav{
-    font-family:  garamond;
+    font-family:  garamond!important;
     padding-top: 1.5em;
 	width: 80%;
     margin-left:  auto;
@@ -109,7 +109,7 @@ button {
     }
     #mainPageHeader span{
         font-size: 35px!important;
-        font-family:  Garamond, serif;
+        font-family:  Garamond!important;
 
     }
     #mainPageHeader h3{
