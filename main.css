@@ -18,7 +18,7 @@ body {
 }
 
 body .canvas {
-    font-family:  garamond;
+    font-family:  garamond!important;
 	margin: auto;
 	margin-top:  8%;
 	margin-bottom:  8%;
