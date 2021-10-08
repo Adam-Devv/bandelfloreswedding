@@ -103,28 +103,28 @@ button {
 }
 
 #mainPageContent{
-    font-family:  font-family:  Georgia;
+    font-family:  font-family:  Georgia!important;
 }
 
 @media only screen and (max-width: 1140px) {
 
     #mainNav {
         display: none;
-        font-family:  Georgia;
+        font-family:  Georgia!important;
     }
 
     #mainPageHeader span{
         font-size: 35px!important;
-        font-family:  Georgia;
+        font-family:  Georgia!important;
 
     }
     #mainPageHeader h3{
         font-size: 18px!important;
-        font-family:  Georgia;
+        font-family:  Georgia!important;
     }
     #mainPageHeader h4{
         font-size: 15px!important;
-        font-family:  Georgia;
+        font-family:  Georgia!important;
     }
     
     #mainPageImage1 {
