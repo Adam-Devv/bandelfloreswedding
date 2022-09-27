@@ -4,10 +4,14 @@ img {
 	border-radius: 8px;
 	padding:  5%;
 }
-
-img:hover{
-    cursor: grabbing;
+#weatherImage{
+    width: 100%;
+    margin: auto;
 }
+
+/*img:hover{
+    cursor: grabbing;
+}*/
 .imageContainer > img:click {
 	-webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
@@ -185,12 +189,47 @@ button {
     margin-bottom:  10px;
 }
 
+/*GALLERY SECTION*/
+.galleryWrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.galleryRow{
+    width:  100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+.galImg{
+    padding: 1rem;
+    max-width: 20%;
+    object-fit:  contain;
+    max-height: 300px;
+    margin: auto;
+}
+
 
 /*RESPONSIVE STYLING*/
 @media only screen and (max-width: 1140px) {
 
+.galleryWrapper {}
+.galleryRow{
+    /*flex-direction: column;*/
+}
+.galImg{
+    max-width:  50%;
+}
+    #mainPageHeader{
+
+        padding-top: 0px!important;
+    }
     #mainPageHeader h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     #mainNav {
         display: none;
