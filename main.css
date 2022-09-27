@@ -207,9 +207,8 @@ button {
 }
 .galImg{
     padding: 1rem;
-    max-width: 20%;
+    max-width: 45%;
     object-fit:  contain;
-    max-height: 300px;
     margin: auto;
 }
 
